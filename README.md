@@ -64,6 +64,8 @@ olmasının nedeni, farklı alanlardaki karmaşık problemleri çözme yeteneği
 tanıma sisteminde SVM, bir görüntüyü oluşturan pikselleri yüksek boyutlu bir vektör olarak temsil eder 
 ve bu vektörleri farklı sınıflara (örneğin, kedi, köpek, araba) ait örneklerle karşılaştırır. Böylece, SVM, 
 verilen bir görüntünün hangi sınıfa ait olduğunu doğru bir şekilde tahmin edebilir. 
+<img src="https://github.com/ncrim7/support-vector-machines/blob/main/img/1_fpDngO6lM5pDeIPOOezK1g_op.webp" width="auto" height="auto">
+<img src="https://github.com/ncrim7/support-vector-machines/blob/main/img/7364c7c7885b8652083ac6ff7de229ff.jpg" width="auto" height="auto">
 
 ### 1.2 Teorik Temel
 
