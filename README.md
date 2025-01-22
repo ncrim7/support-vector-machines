@@ -457,7 +457,7 @@ fig.show()
    - `classification_report`, sınıf bazında kesinlik (precision), bulma (recall) ve F1 skorunu gösterir.  
    - `confusion_matrix`, tahmin edilen etiketler ile gerçek etiketler arasındaki eşleşmeyi gösterir.
 
-  <img src="https://github.com/ncrim7/support-vector-machines/blob/main/img/Ekran%20Al%C4%B1nt%C4%B1s%C4%B1.PNG" width="auto" height="auto">
+  <img src="https://github.com/ncrim7/support-vector-machines/blob/main/img/aaEkran%20Al%C4%B1nt%C4%B1s%C4%B1.PNG" width="auto" height="auto">
 
 
 #### 1.3.3 Kullanım Alanları
