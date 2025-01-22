@@ -64,6 +64,8 @@ olmasının nedeni, farklı alanlardaki karmaşık problemleri çözme yeteneği
 tanıma sisteminde SVM, bir görüntüyü oluşturan pikselleri yüksek boyutlu bir vektör olarak temsil eder 
 ve bu vektörleri farklı sınıflara (örneğin, kedi, köpek, araba) ait örneklerle karşılaştırır. Böylece, SVM, 
 verilen bir görüntünün hangi sınıfa ait olduğunu doğru bir şekilde tahmin edebilir. 
+<img src="https://github.com/ncrim7/support-vector-machines/blob/main/img/1_fpDngO6lM5pDeIPOOezK1g_op.webp" width="auto" height="auto">
+<img src="https://github.com/ncrim7/support-vector-machines/blob/main/img/7364c7c7885b8652083ac6ff7de229ff.jpg" width="auto" height="auto">
 
 ### 1.2 Teorik Temel
 
@@ -116,6 +118,7 @@ dışında Hesse normal formuna çok benzer. Parametre, hiperdüzlemin w normal 
 orijinden uzaklığını belirler. Uyarı: Konuyla ilgili literatürün çoğu, iki sınıftan örneklerle eğitilmiş bir 
 SVM için Maksimum kenar boşluğu hiperdüzlemi ve kenar boşlukları olacak şekilde önyargıyı tanımlar. 
 Kenardaki örneklere destek vektörleri denir. 𝒘𝑻𝒙 + 𝒃 = 𝟎 
+<img src="https://github.com/ncrim7/support-vector-machines/blob/main/img/SVM_margin.png" width="auto" height="auto">
 
 #### 1.2.3 Doğrusal Olmayan SVM
 Destek Vektör Makineleri (SVM), verileri optimal bir hiper düzlem ile ayırmayı amaçlayan güçlü 
@@ -132,6 +135,7 @@ veri setlerinde yavaş çalışması, karmaşık doğrusal olmayan problemlerde 
 değerlere duyarlılık bulunmaktadır. Sonuç olarak, SVM, çeşitli alanlarda başarıyla kullanılan güçlü bir 
 sınıflandırma algoritmasıdır; ancak, algoritma seçimi yaparken verinin özellikleri, problemin 
 karmaşıklığı ve istenen performans gibi faktörler dikkate alınmalıdır.
+<img src="https://github.com/ncrim7/support-vector-machines/blob/main/img/Ekran%20Al%C4%B1nt%C4%B1s%C4%B1.PNG" width="auto" height="auto">
 
 #### 1.2.4 Optimizasyon Problemi
 SVM algoritmasının başarısının merkezinde, veri noktalarını en iyi şekilde ayıracak bir hiper düzlemi 
@@ -173,6 +177,9 @@ tekniktir, doğrusal olmayan ayrılabilir veri kümelerini başarıyla sınıfla
 fonksiyonları seçerek, farklı türdeki veriler için en uygun modeli elde edebiliriz, doğrusal olmayan veri 
 kümelerini ayırabilir, verileri yüksek boyutlu uzaylara dönüştürerek daha karmaşık ilişkileri yakalar, 
 farklı veri türlerine uyum sağlar ve çekirdek matrisi sayesinde hesaplama yükünü azaltır. 
+
+<img src="https://github.com/ncrim7/support-vector-machines/blob/main/img/Kernel_trick_idea.svg.png" width="auto" height="auto">
+
 #### 1.2.6 Polinom Çekirdek
 ve bu fonksiyon, verileri daha yüksek boyutlu bir uzaya dönüştürerek doğrusal olmayan verilerin daha 
 iyi sınıflandırılmasını sağlar. Polinom çekirdek, iki veri noktası arasındaki ilişkiyi bir polinom fonksiyonu ile ifade eder ve böylece veriler arasındaki daha karmaşık ilişkiler yakalanabilir; genel olarak 
@@ -193,6 +200,8 @@ edilmesi önemlidir. Bu çekirdek, verileri daha yüksek boyutlu bir uzaya dön�
 ilişkileri yakalar ve d parametresi, polinomun derecesini belirler; doğru parametre seçimi, modelin 
 başarısı için kritik öneme sahiptir. 
 
+<img src="https://github.com/ncrim7/support-vector-machines/blob/main/img/Ekran%20Al%C4%B1nt%C4%B1s%C4%B12.PNG" width="auto" height="auto">
+
 #### 1.2.7 RBF Çekirdek
 Radyal Temel Fonksiyon (RBF) çekirdek, Destek Vektör Makinelerinde (SVM) sıkça kullanılan ve 
 doğrusal olmayan verilerin sınıflandırılmasında etkili olan popüler bir çekirdek türüdür. RBF çekirdek, 
@@ -212,6 +221,8 @@ fonksiyonlarının iyi sonuç vermemesi durumunda RBF çekirdek tercih edilir. �
 SVM'lerde doğrusal olmayan verileri sınıflandırmak için güçlü ve popüler bir araçtır, verilerin yerel 
 yapısını yakalayarak daha iyi bir model oluşturulmasını sağlar ve doğru parametre seçimi, modelin 
 başarısı için kritik öneme sahiptir.
+
+<img src="https://github.com/ncrim7/support-vector-machines/blob/main/img/svm_kernels%20intro%20(1).png" width="auto" height="auto">
 
 #### 1.2.8 Algoritmanın Avantajları ve Sınırlamaları
 Destek Vektör Makineleri (SVM) algoritması, küçük veri setlerinde iyi performans göstermesi, yüksek boyutlu verilerle çalışma kabiliyeti, az sayıda ayarlanabilir parametre gerektirmesi ve genelleme 
@@ -411,6 +422,10 @@ fig.update_yaxes(showgrid=True, gridwidth=1, gridcolor="lightgray")
 fig.show()
 
 ```
+<img src="https://github.com/ncrim7/support-vector-machines/blob/main/img/3Ekran%20Al%C4%B1nt%C4%B1s%C4%B1.PNG" width="auto" height="auto">
+<img src="https://github.com/ncrim7/support-vector-machines/blob/main/img/4Ekran%20Al%C4%B1nt%C4%B1s%C4%B1.PNG" width="auto" height="auto">
+<img src="https://github.com/ncrim7/support-vector-machines/blob/main/img/1Ekran%20Al%C4%B1nt%C4%B1s%C4%B1.PNG" width="auto" height="auto">
+<img src="https://github.com/ncrim7/support-vector-machines/blob/main/img/2Ekran%20Al%C4%B1nt%C4%B1s%C4%B1.PNG" width="auto" height="auto">
 
 ### Kodun Açıklaması
 1. **Veri Seti (load_breast_cancer):**  
@@ -441,6 +456,8 @@ fig.show()
    - Test veri seti üzerinde tahmin (`predict`) işlemi yapılarak modelin performansı ölçülür.  
    - `classification_report`, sınıf bazında kesinlik (precision), bulma (recall) ve F1 skorunu gösterir.  
    - `confusion_matrix`, tahmin edilen etiketler ile gerçek etiketler arasındaki eşleşmeyi gösterir.
+
+  <img src="https://github.com/ncrim7/support-vector-machines/blob/main/img/Ekran%20Al%C4%B1nt%C4%B1s%C4%B1.PNG" width="auto" height="auto">
 
 
 #### 1.3.3 Kullanım Alanları
